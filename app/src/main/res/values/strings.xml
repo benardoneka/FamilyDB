@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FamilyDB</string>
+    <string name="caseOne">
+        <a href="https://www.knowyourix.org/survivor-resources/dealing-unsupportive-parents-peers/">
+            Dealing with Unsupportive Parents and Peers</a>
+    </string>
+    <string name="case_two">
+        <a href="https://www.pcar.org/sites/default/files/resource-pdfs/friends_and_family_guide_final.pdf">
+            A Guide for Friends and Family of Sexual Violence Survivors</a>
+    </string>
+    <string name="case_three">
+        <a href="https://www1.folha.uol.com.br/internacional/en/brazil/2019/09/brazil-registers-more-than-180-rapes-per-day-the-highest-since-2009.shtml">
+            More than 180 Rapes per Day, The Highest since 2009 </a>
+    </string>
+    <string name="case_four">
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5762133/">
+            Psychosocial Outcomes Among Children Following Defilement </a>
+    </string>
+    <string name="case_five">
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5762133/">
+            The Caregivers Responses To The Children’s Trauma</a>
+    </string>
+    <string name="case_six">
+        <a href="https://community.namati.org/t/how-do-we-deal-with-rape-cases-when-perpetrator-is-close-family-member-or-community-member/25174">
+            Dealing with rape cases when perpetrator is close family member or community member?</a>
+    </string>
+    <string name="case_seven">
+        <a href="https://www.unicef.org/protection">
+            UNICEF Child Protection</a>
+    </string>
+    <string name="case_eight">
+        <a href="http://mural.maynoothuniversity.ie/6152/1/CH-Child-Abuse.pdf">
+            UN Convention (UNHCR) ON THE RIGHTS OF THE CHILD AND THE CRIMINAL LAW</a>
+    </string>
+
+</resources>

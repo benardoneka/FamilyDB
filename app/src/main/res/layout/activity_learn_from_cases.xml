@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/famapp"
+    tools:context=".LearnFromCasesActivity">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap To Learn More"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_margin="30dp"/>
+
+    <SearchView
+        android:id="@+id/searchCase"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_title"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_round">
+
+    </SearchView>
+
+<!--    <Button-->
+<!--        android:id="@+id/btnSearch"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/searchCase"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="-0dp"-->
+<!--        android:layout_marginEnd="35dp"-->
+<!--        android:background="@drawable/bg_round"-->
+<!--        android:text="Search" />-->
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_round"
+        android:layout_below="@+id/searchCase"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/webView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:id="@+id/linkOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/caseOne"
+                android:layout_marginRight="25dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_round"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:contextClickable="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/linkTwo"
+                android:layout_below="@id/linkOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/case_two"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_round"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:contextClickable="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/linkThree"
+                android:layout_below="@id/linkTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/case_three"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_round"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:contextClickable="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/linkFour"
+                android:layout_below="@id/linkThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/case_four"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_round"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:contextClickable="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/linkFive"
+                android:layout_below="@id/linkFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/case_five"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_round"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:contextClickable="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/linkSix"
+                android:layout_below="@id/linkFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/case_six"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_round"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:contextClickable="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/linkSeven"
+                android:layout_below="@id/linkSix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/case_seven"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_round"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:contextClickable="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/linkEight"
+                android:layout_below="@id/linkSeven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/case_eight"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_round"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:contextClickable="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linkEight"
+                android:fontFamily="cursive"
+                android:padding="8dp"
+                android:text="FAM APP"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#F1F6F5"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
